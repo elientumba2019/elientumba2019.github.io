@@ -24,9 +24,9 @@
                 where I am a member of the Vision and Computational Photography Lab. I mainly work on computer vision and machine learning with Dr. Qing Wang.
               
               </p>
-              <p>
+              <!-- <p>
                 My current research focuses on low-level vision tasks such as image enhancements and restoration.
-              </p>
+              </p> -->
               <p style="text-align:center">
                 <a href="mailto:ntumbaeliensampi@gmail.com">Email</a> &nbsp/&nbsp
                 <a href="data/Ntumba-Elie-CV.pdf">CV</a> &nbsp/&nbsp
@@ -50,9 +50,50 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+
+
+          <tr onmouseout="ih_stop()" onmouseover="ih_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ih_image'>
+                  <img src='images/ih_o.jpg' width="160" height="160"></div>
+                <img src='images/ih_i.jpg' width="160" height="160">
+              </div>
+              <script type="text/javascript">
+                function ih_start() {
+                  document.getElementById('ih_image').style.opacity = "1";
+                }
+
+                function ih_stop() {
+                  document.getElementById('ih_image').style.opacity = "0";
+                }
+                ih_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>NeSF: Neural Shading Field for Image Harmonization</papertitle>
+              
+              <br>
+              Zhongyun Hu, <strong>Ntumba Elie, Nsampi</strong>，Xue Wang,
+              <a href="https://teacher.nwpu.edu.cn/m/en/1991000036.html">Qing Wang</a>
+              <br>
+              <em>Arxiv</em>, 2021 
+              <br>
+              <a href="https://arxiv.org/pdf/2112.01314.pdf">Paper</a> /
+              Code (Coming soon)
+              
+              <p></p>
+              <p>A new framework, with the first image harmonization dataset that has shading variations.</p>
+            </td>
+
+            
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
           
 
-          <tr onmouseout="nerfactor_stop()" onmouseover="nerfactor_start()">
+          <tr onmouseout="ec_stop()" onmouseover="ec_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='nerfactor_image'>
@@ -60,14 +101,14 @@
                 <img src='images/ec_i.jpg' width="160">
               </div>
               <script type="text/javascript">
-                function nerfactor_start() {
+                function ec_start() {
                   document.getElementById('nerfactor_image').style.opacity = "1";
                 }
 
-                function nerfactor_stop() {
+                function ec_stop() {
                   document.getElementById('nerfactor_image').style.opacity = "0";
                 }
-                nerfactor_stop()
+                ec_stop()
               </script>
             </td>
 
@@ -82,7 +123,7 @@
               <br>
               <em>BMVC</em>, 2021 
               <br>
-              <a href="https://drive.google.com/file/d/1l5D0BPIr5kF5miUMqf-igDLEHwIKvfVI/view?usp=sharing">Paper</a> /
+              <a href="https://www.bmvc2021-virtualconference.com/assets/papers/0038.pdf">Paper</a> /
               <a href="https://github.com/elientumba2019/Exposure-Correction-BMVC-2021">Code</a> 
               
               <p></p>
