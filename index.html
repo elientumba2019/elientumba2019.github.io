@@ -56,6 +56,45 @@
           
           
           <tr onmouseout="nfc_stop()" onmouseover="nfc_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nfc'>
+                  <img src='images/dof2.png' width="160"></div>
+                <img src='images/dof1.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function nfc_start() {
+                  document.getElementById('nfc').style.opacity = "1";
+                }
+
+                function nfc_stop() {
+                  document.getElementById('nfc').style.opacity = "0";
+                }
+                
+                nfc_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Neural Field Convolutions by Repeated Differentiation</papertitle>
+              
+              <br>
+              <strong>Ntumba Elie, Nsampi</strong>,
+              Adarsh Djeacoumar,
+              <a href="https://people.mpi-inf.mpg.de/~hpseidel/english.html">Hans-Peter Seidel</a>, 
+              <a href="https://www.homepages.ucl.ac.uk/~ucactri/"> Tobias Ritschel</a>, 
+              <a href="https://people.mpi-inf.mpg.de/~tleimkue/"> Thomas Leimkühler</a>, 
+
+              <br>
+              <em>ACM TOG (SIGGRAPH Asia)</em>, 2023 
+              <br>
+              <a href="https://neural-fields-conv.mpi-inf.mpg.de/">Project</a>, 
+              <a href="https://neural-fields-conv.mpi-inf.mpg.de/static/paper/compressed/neural_field_convolutions.pdf">Paper</a>
+              <p></p>
+              <p>We decompose the any-to-any relighting problem, into three sub-problems and propose three networks to solve each one independently.</p>
+            </td>
+          </tr>
 
             
             <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -67,7 +106,7 @@
 
 
 
-             <tr onmouseout="pinr_stop()" onmouseover="pinr_start()">
+            <tr onmouseout="pinr_stop()" onmouseover="pinr_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <div class="two" id='pinr'>
@@ -102,6 +141,7 @@
                 <p></p>
                 <p>We decompose the any-to-any relighting problem, into three sub-problems and propose three networks to solve each one independently.</p>
               </td>
+            </tr>
 
 
 
@@ -144,6 +184,7 @@
               <p></p>
               <p>A new framework, with the first image harmonization dataset that has shading variations.</p>
             </td>
+          </tr>
 
             
             <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -185,6 +226,7 @@
               <p></p>
               <p>We constrain a deep network to learn an exposure-invariant representation, such that images of different exposure degradation level result in the same representation.</p>
             </td>
+          </tr>
 						
 
             <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -225,6 +267,8 @@
                 <p></p>
                 <p>We propose a shadow guidance network, which when plugged into an any-to-any relighting pipeline improves the quality of generated shadows.</p>
               </td>
+            </tr>
+            
 
         </tbody></table>
         
