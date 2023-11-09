@@ -43,7 +43,8 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I am broadly interested in Computer Vision, Computer Graphics and, Machine Learning. I am particularly interested in Problems at their Intersection.
+                I am broadly interested in Computer Vision, Computer Graphics and, Machine Learning.
+                I am particularly interested in Problems at their Intersection.
               </p>
             </td>
           </tr>
@@ -99,6 +100,42 @@
             
             <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
           
+            <tr onmouseout="ih_stop()" onmouseover="ih_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ih_image'>
+                    <img src='images/ih_o.jpg' width="160" height="160"></div>
+                  <img src='images/ih_i.jpg' width="160" height="160">
+                </div>
+                <script type="text/javascript">
+                  function ih_start() {
+                    document.getElementById('ih_image').style.opacity = "1";
+                  }
+  
+                  function ih_stop() {
+                    document.getElementById('ih_image').style.opacity = "0";
+                  }
+                  ih_stop()
+                </script>
+              </td>
+  
+  
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>SIDNet: Learning Shading-aware Illumination Descriptor for Image Harmonization</papertitle>
+                
+                <br>
+                Zhongyun Hu, <strong>Ntumba Elie Nsampi</strong>,Xue Wang,
+                <a href="https://teacher.nwpu.edu.cn/m/en/1991000036.html">Qing Wang</a>
+                <br>
+                <em>IEEE TETCI</em>, 2023
+                <br>
+                <a href="https://waldenlakes.github.io/IllumHarmony/">Project</a>, 
+              <a href="https://waldenlakes.github.io/IllumHarmony/static/pdfs/SIDNet_TETCI2023_High-Resolution.pdf">Paper</a>
+                
+                <p></p>
+                <p>A new framework, with the first image harmonization dataset that has shading variations.</p>
+              </td>
+            </tr>
 
           
              <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -182,7 +219,6 @@
               Code (Coming soon)
               
               <p></p>
-              <p>A new framework, with the first image harmonization dataset that has shading variations.</p>
             </td>
           </tr>
 
