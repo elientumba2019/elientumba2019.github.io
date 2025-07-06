@@ -53,8 +53,50 @@
 
 
 
+           <tr onmouseout="ngs_stop()" onmouseover="ngs_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ngs'>
+                  <img src='images/gsc2.png' width="160"></div>
+                <img src='images/gsc1.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ngs_start() {
+                  document.getElementById('ngs').style.opacity = "1";
+                }
+
+                function ngs_stop() {
+                  document.getElementById('ngs').style.opacity = "0";
+                }
+                
+                ngs_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Neural Gaussian Scale-Space Fields</papertitle>
+              
+              <br>
+              <a href="https://people.mpi-inf.mpg.de/~fmujkano/">Felix Mujkanovic</a>, 
+              <strong>Ntumba Elie, Nsampi</strong>,
+               
+              <a href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>, 
+              <a href="https://people.mpi-inf.mpg.de/~hpseidel/english.html">Hans-Peter Seidel</a>, 
+              <a href="https://people.mpi-inf.mpg.de/~tleimkue/"> Thomas Leimkühler</a>, 
+
+              <br>
+              <em>ACM TOG (SIGGRAPH)</em>, 2024 
+              <br>
+              <a href="https://neural-gaussian-scale-space-fields.mpi-inf.mpg.de/">Project</a>, 
+              <a href="https://neural-gaussian-scale-space-fields.mpi-inf.mpg.de/paper.pdf">Paper</a>
+              <p></p>
+              <p>We introduce an algorithm to learn a gaussian scale space field from a single image</p>
+            </td>
+          </tr>
           
-          
+          <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
           
           <tr onmouseout="nfc_stop()" onmouseover="nfc_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
